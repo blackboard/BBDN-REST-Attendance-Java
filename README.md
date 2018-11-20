@@ -18,6 +18,8 @@ In order to give the user control over the action, the application uses command 
 
 In order to pass the command line options to the gradle application plugin, you simply append -Dexec.args="\<your command line args\>"
 
+You must update the bbdn.rest.RestConfig to configure the application to use your Learn instance, key, and secret.
+
 This project is intended to show you how to use the APIs and not how to build a Java application.
 
 #### Available Commands
