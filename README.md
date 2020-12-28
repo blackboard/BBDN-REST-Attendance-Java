@@ -5,10 +5,10 @@ The purpose of this project is to illustrate the usage of the Blackboard Attenda
 This means you, the developer, can use the same key, secret, and application ID that you use with all Blackboard Learn REST applications.
 
 ### Prerequisites
-* Java 8
+* Java 11
 * Application ID, Key, and Secret from developer.blackboard.com.
 * Application ID registered in Blackboard Learn instance with an associated non-Admin user with the appropriate rights
-* Gradle (Built and tested with Gradle 4.3)
+* Gradle (Built and tested with Gradle 5.6.2)
 * A Blackboard Learn instance with the attendance APIs available and the service enabled
 
 ### Running the Application
@@ -50,7 +50,7 @@ gradle run -Dexec.args="-r <meetingId> <course pk1>"
 
 ### Licensing
 ```
-Copyright © 2018 Blackboard Developer Community. All rights reserved.
+Copyright © 2020 Blackboard Developer Community. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
